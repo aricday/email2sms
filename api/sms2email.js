@@ -6,7 +6,7 @@ module.exports = (req, res) => {
 
     //Set from address as <number>@EMAIL_DOMAIN
 //     const fromAddress = req.body.From.replace("+", "") + `@${process.env.EMAIL_DOMAIN}`;
-    const fromAddress = `dayxx275@umn.edu`;
+    const fromAddress = "dayxx275@umn.edu";
 
     //Create Email
     const email = {
